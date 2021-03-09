@@ -17,7 +17,7 @@ const SECRET = "SIMPLE_SECRET"
 interface DbSchema {
   users: JWTPayload[]
   todos: Todos
-}
+}     
 
 interface JWTPayload {
   username: string;
