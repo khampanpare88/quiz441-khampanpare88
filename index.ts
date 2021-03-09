@@ -6,7 +6,7 @@ import jwt from 'jsonwebtoken'
 import { body, query, validationResult } from 'express-validator'
 import fs from 'fs'
 import { userInfo } from 'node:os'
-
+     
 const app = express()
 app.use(bodyParser.json())
 app.use(cors())
